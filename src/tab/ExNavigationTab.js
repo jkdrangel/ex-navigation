@@ -397,7 +397,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 0,
     left: 0,
-    bottom: 0,
+    bottom: IPHONE_X_BOTTOM_OFFSET,
     right: 0,
   },
   tabContent: {
@@ -405,7 +405,7 @@ const styles = StyleSheet.create({
     top: 0,
     left: 0,
     right: 0,
-    bottom: 0,
+    bottom: IPHONE_X_EXTRA_HEIGHT * -1,
     backgroundColor: 'white',
   },
   tabContentInner: {
